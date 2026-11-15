@@ -19,3 +19,6 @@ dist/
 .DS_Store
 .idea/
 .vscode/
+
+# Local-only design mockup (not part of the app)
+mockup/
