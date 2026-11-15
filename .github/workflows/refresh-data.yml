@@ -1,13 +1,13 @@
 name: Refresh holdings data
 
 # AMCs publish a month's portfolio within ~10 days of month end, but not all on
-# the same day. Run on the 10th and again on the 20th (UTC) so an AMC that
+# the same day. Run on the 15th and again on the 25th (UTC) so an AMC that
 # missed the first run is picked up by the second. The second run is safe: the
 # PR branch is per month, and an unchanged data/ opens no PR. Trigger by hand
 # to backfill or retry a month.
 on:
   schedule:
-    - cron: "30 4 10,20 * *"
+    - cron: "30 4 15,25 * *"
   workflow_dispatch:
     inputs:
       month:
