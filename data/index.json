@@ -1,0 +1,2594 @@
+[
+ {
+  "id": "axis-aggressive-hybrid-fund",
+  "name": "Axis Aggressive Hybrid Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 74.54,
+  "holdings": 97
+ },
+ {
+  "id": "axis-arbitrage-fund",
+  "name": "Axis Arbitrage Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 68.82,
+  "holdings": 133
+ },
+ {
+  "id": "axis-balanced-advantage-fund",
+  "name": "Axis Balanced Advantage Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 74.79,
+  "holdings": 104
+ },
+ {
+  "id": "axis-bse-india-sector-leaders-index-fund",
+  "name": "Axis BSE India Sector Leaders Index Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.04,
+  "holdings": 59
+ },
+ {
+  "id": "axis-bse-sensex-etf",
+  "name": "Axis BSE Sensex ETF",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.96,
+  "holdings": 30
+ },
+ {
+  "id": "axis-bse-sensex-index-fund",
+  "name": "Axis BSE Sensex Index Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.22,
+  "holdings": 30
+ },
+ {
+  "id": "axis-business-cycles-fund",
+  "name": "Axis Business Cycles Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 96.92,
+  "holdings": 84
+ },
+ {
+  "id": "axis-childrens-fund",
+  "name": "Axis Children’s Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 71.23,
+  "holdings": 96
+ },
+ {
+  "id": "axis-conservative-hybrid-fund",
+  "name": "Axis Conservative Hybrid Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 19.27,
+  "holdings": 32
+ },
+ {
+  "id": "axis-consumption-fund",
+  "name": "Axis Consumption Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.5,
+  "holdings": 57
+ },
+ {
+  "id": "axis-credit-risk-fund",
+  "name": "Axis Credit Risk Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 9.39,
+  "holdings": 8
+ },
+ {
+  "id": "axis-dynamic-term-fund",
+  "name": "Axis Dynamic Term Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 4.38,
+  "holdings": 3
+ },
+ {
+  "id": "axis-elss-tax-saver-fund",
+  "name": "Axis ELSS- Tax Saver Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 97.88,
+  "holdings": 74
+ },
+ {
+  "id": "axis-equity-savings-fund",
+  "name": "Axis Equity Savings Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 71.04,
+  "holdings": 93
+ },
+ {
+  "id": "axis-esg-integration-strategy-fund",
+  "name": "Axis ESG Integration Strategy Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 86.68,
+  "holdings": 40
+ },
+ {
+  "id": "axis-flexi-cap-fund",
+  "name": "Axis Flexi Cap Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 91.99,
+  "holdings": 69
+ },
+ {
+  "id": "axis-floating-interest-rates-fund",
+  "name": "Axis Floating Interest Rates Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 6.98,
+  "holdings": 4
+ },
+ {
+  "id": "axis-focused-fund",
+  "name": "Axis Focused Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 93.06,
+  "holdings": 27
+ },
+ {
+  "id": "axis-india-manufacturing-fund",
+  "name": "Axis India Manufacturing Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 93.41,
+  "holdings": 70
+ },
+ {
+  "id": "axis-innovation-fund",
+  "name": "Axis Innovation Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 78.58,
+  "holdings": 48
+ },
+ {
+  "id": "axis-large-and-mid-cap-fund",
+  "name": "Axis Large & Mid Cap Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 89.84,
+  "holdings": 84
+ },
+ {
+  "id": "axis-large-cap-fund",
+  "name": "Axis Large Cap Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 93.46,
+  "holdings": 48
+ },
+ {
+  "id": "axis-medium-term-fund",
+  "name": "Axis Medium Term Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 3.76,
+  "holdings": 8
+ },
+ {
+  "id": "axis-midcap-fund",
+  "name": "Axis Midcap Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 92.35,
+  "holdings": 85
+ },
+ {
+  "id": "axis-momentum-fund",
+  "name": "Axis Momentum Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 91.08,
+  "holdings": 42
+ },
+ {
+  "id": "axis-multi-asset-allocation-fund",
+  "name": "Axis Multi Asset Allocation Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 70.64,
+  "holdings": 88
+ },
+ {
+  "id": "axis-multicap-fund",
+  "name": "Axis Multicap Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 94.81,
+  "holdings": 105
+ },
+ {
+  "id": "axis-nifty-100-index-fund",
+  "name": "Axis Nifty 100 Index Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.02,
+  "holdings": 100
+ },
+ {
+  "id": "axis-nifty-50-etf",
+  "name": "Axis NIFTY 50 ETF",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.95,
+  "holdings": 50
+ },
+ {
+  "id": "axis-nifty-50-index-fund",
+  "name": "Axis Nifty 50 Index Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.05,
+  "holdings": 50
+ },
+ {
+  "id": "axis-nifty-500-index-fund",
+  "name": "Axis Nifty 500 Index Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.05,
+  "holdings": 500
+ },
+ {
+  "id": "axis-nifty-bank-etf",
+  "name": "Axis NIFTY Bank ETF",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.0,
+  "holdings": 14
+ },
+ {
+  "id": "axis-nifty-bank-index-fund",
+  "name": "Axis Nifty Bank Index Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.0,
+  "holdings": 14
+ },
+ {
+  "id": "axis-nifty-capital-markets-index-fund",
+  "name": "Axis Nifty Capital Markets Index Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.91,
+  "holdings": 17
+ },
+ {
+  "id": "axis-nifty-energy-etf",
+  "name": "Axis Nifty Energy ETF",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.94,
+  "holdings": 40
+ },
+ {
+  "id": "axis-nifty-energy-index-fund",
+  "name": "Axis Nifty Energy Index Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.81,
+  "holdings": 40
+ },
+ {
+  "id": "axis-nifty-healthcare-etf",
+  "name": "Axis NIFTY Healthcare ETF",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.99,
+  "holdings": 20
+ },
+ {
+  "id": "axis-nifty-india-consumption-etf",
+  "name": "Axis NIFTY India Consumption ETF",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.99,
+  "holdings": 30
+ },
+ {
+  "id": "axis-nifty-india-defence-index-fund",
+  "name": "Axis Nifty India Defence Index Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.99,
+  "holdings": 22
+ },
+ {
+  "id": "axis-nifty-it-etf",
+  "name": "Axis NIFTY IT ETF",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.86,
+  "holdings": 10
+ },
+ {
+  "id": "axis-nifty-it-index-fund",
+  "name": "Axis Nifty IT Index Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.9,
+  "holdings": 10
+ },
+ {
+  "id": "axis-nifty-midcap-50-index-fund",
+  "name": "Axis Nifty Midcap 50 Index Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.0,
+  "holdings": 50
+ },
+ {
+  "id": "axis-nifty-next-50-index-fund",
+  "name": "Axis Nifty Next 50 Index Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.1,
+  "holdings": 50
+ },
+ {
+  "id": "axis-nifty-smallcap-50-index-fund",
+  "name": "Axis Nifty Smallcap 50 Index Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.98,
+  "holdings": 50
+ },
+ {
+  "id": "axis-nifty50-equal-weight-index-fund",
+  "name": "Axis Nifty50 Equal Weight Index Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.12,
+  "holdings": 50
+ },
+ {
+  "id": "axis-nifty500-low-volatility-50-index-fund",
+  "name": "Axis Nifty500 Low Volatility 50 Index Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 102.77,
+  "holdings": 50
+ },
+ {
+  "id": "axis-nifty500-momentum-50-index-fund",
+  "name": "Axis Nifty500 Momentum 50 Index Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.06,
+  "holdings": 50
+ },
+ {
+  "id": "axis-nifty500-quality-50-index-fund",
+  "name": "Axis Nifty500 Quality 50 Index Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.93,
+  "holdings": 50
+ },
+ {
+  "id": "axis-nifty500-value-50-etf",
+  "name": "Axis Nifty500 Value 50 ETF",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.96,
+  "holdings": 50
+ },
+ {
+  "id": "axis-nifty500-value-50-index-fund",
+  "name": "Axis Nifty500 Value 50 Index Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.94,
+  "holdings": 50
+ },
+ {
+  "id": "axis-quant-fund",
+  "name": "Axis Quant Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 88.97,
+  "holdings": 26
+ },
+ {
+  "id": "axis-retirement-fund-aggressive-plan",
+  "name": "Axis Retirement Fund - Aggressive Plan",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 74.47,
+  "holdings": 90
+ },
+ {
+  "id": "axis-retirement-fund-conservative-plan",
+  "name": "Axis Retirement Fund - Conservative Plan",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 38.43,
+  "holdings": 35
+ },
+ {
+  "id": "axis-retirement-fund-dynamic-plan",
+  "name": "Axis Retirement Fund - Dynamic Plan",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 79.93,
+  "holdings": 93
+ },
+ {
+  "id": "axis-services-opportunities-fund",
+  "name": "Axis Services Opportunities Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 95.4,
+  "holdings": 46
+ },
+ {
+  "id": "axis-small-cap-fund",
+  "name": "Axis Small Cap Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 90.49,
+  "holdings": 129
+ },
+ {
+  "id": "axis-value-fund",
+  "name": "Axis Value Fund",
+  "amc": "axis",
+  "as_of": "2026-10-31",
+  "equity_pct": 90.99,
+  "holdings": 83
+ },
+ {
+  "id": "hdfc-aggressive-hybrid-fund",
+  "name": "HDFC Aggressive Hybrid Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 74.18,
+  "holdings": 64,
+  "descriptor": "An open ended hybrid scheme investing predominantly in equity and equity related instruments). (Formerly known as HDFC Hybrid Equity Fund"
+ },
+ {
+  "id": "hdfc-arbitrage-fund",
+  "name": "HDFC Arbitrage Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 67.72,
+  "holdings": 162,
+  "descriptor": "An open ended scheme investing in arbitrage opportunities"
+ },
+ {
+  "id": "hdfc-balanced-advantage-fund",
+  "name": "HDFC Balanced Advantage Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 75.17,
+  "holdings": 164,
+  "descriptor": "An open ended Balanced Advantage Fund"
+ },
+ {
+  "id": "hdfc-banking-and-financial-services-fund",
+  "name": "HDFC Banking & Financial Services Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 98.85,
+  "holdings": 38,
+  "descriptor": "An open ended equity scheme investing in Banking and Financial Services Sector"
+ },
+ {
+  "id": "hdfc-bse-500-etf",
+  "name": "HDFC BSE 500 ETF",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.95,
+  "holdings": 501,
+  "descriptor": "An open ended scheme replicating/tracking S&P BSE 500 Index TRI"
+ },
+ {
+  "id": "hdfc-bse-500-index-fund",
+  "name": "HDFC BSE 500 Index Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.62,
+  "holdings": 501,
+  "descriptor": "An open ended scheme replicating / tracking S&P BSE 500 INDEX FUND"
+ },
+ {
+  "id": "hdfc-bse-india-sector-leaders-index-fund",
+  "name": "HDFC BSE India Sector Leaders Index Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.0,
+  "holdings": 59,
+  "descriptor": "An open ended scheme replicating/tracking BSE India Sector Leaders Index (TRI)"
+ },
+ {
+  "id": "hdfc-bse-reits-and-commercial-real-estate-index-fund",
+  "name": "HDFC BSE REITS and Commercial Real Estate Index Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.5,
+  "holdings": 14,
+  "descriptor": "An open ended scheme replicating/tracking BSE REITS and Commercial Real Estate Index (TRI)"
+ },
+ {
+  "id": "hdfc-bse-sensex-etf",
+  "name": "HDFC BSE Sensex ETF",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.99,
+  "holdings": 30,
+  "descriptor": "An open ended scheme replicating / tracking S&P BSE SENSEX index"
+ },
+ {
+  "id": "hdfc-bse-sensex-index-fund",
+  "name": "HDFC BSE Sensex Index Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.01,
+  "holdings": 30,
+  "descriptor": "An open-ended scheme replicating / tracking S&P BSE SENSEX Index"
+ },
+ {
+  "id": "hdfc-business-cycle-fund",
+  "name": "HDFC Business Cycle Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 90.36,
+  "holdings": 67,
+  "descriptor": "An open ended equity scheme following business cycle based investing theme"
+ },
+ {
+  "id": "hdfc-childrens-fund",
+  "name": "HDFC Children's Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 70.96,
+  "holdings": 62,
+  "descriptor": "An open ended fund for investment for children having a lock-in for at least 5 years or till the child attains age of majority whichever is earlier"
+ },
+ {
+  "id": "hdfc-conservative-hybrid-fund",
+  "name": "HDFC Conservative Hybrid Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 20.53,
+  "holdings": 39,
+  "descriptor": "An open-ended hybrid scheme investing predominantly in debt instruments). (Formerly known as HDFC Hybrid Debt Fund"
+ },
+ {
+  "id": "hdfc-consumption-fund",
+  "name": "HDFC Consumption Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.67,
+  "holdings": 51,
+  "descriptor": "An open ended equity scheme following non-cyclical consumer theme"
+ },
+ {
+  "id": "hdfc-credit-risk-fund",
+  "name": "HDFC Credit Risk Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 0.93,
+  "holdings": 1,
+  "descriptor": "An open ended debt scheme predominantly investing in AA and below rated corporate bonds [excluding AA+ rated corporate bonds]). (Formerly known as HDFC Credit Risk Debt Fund"
+ },
+ {
+  "id": "hdfc-defence-fund",
+  "name": "HDFC Defence Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.05,
+  "holdings": 27,
+  "descriptor": "An open-ended equity scheme investing in Defence & allied sector companies"
+ },
+ {
+  "id": "hdfc-dividend-yield-fund",
+  "name": "HDFC Dividend Yield Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.6,
+  "holdings": 127,
+  "descriptor": "An open ended equity scheme predominantly investing in dividend yielding stocks"
+ },
+ {
+  "id": "hdfc-elss-tax-saver-fund",
+  "name": "HDFC ELSS - Tax Saver Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 98.91,
+  "holdings": 61,
+  "descriptor": "An Open-ended Equity Linked Savings Scheme with a statutory lock in of 3 years and tax benefit). (Formerly known as HDFC ELSS Tax Saver"
+ },
+ {
+  "id": "hdfc-equity-savings-fund",
+  "name": "HDFC Equity Savings Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 68.25,
+  "holdings": 80,
+  "descriptor": "An open ended scheme investing in equity, arbitrage and debt"
+ },
+ {
+  "id": "hdfc-flexi-cap-fund",
+  "name": "HDFC Flexi Cap Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 97.56,
+  "holdings": 85,
+  "descriptor": "An open ended equity scheme investing across large cap, mid cap & small cap stocks"
+ },
+ {
+  "id": "hdfc-focused-fund",
+  "name": "HDFC Focused Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 95.13,
+  "holdings": 30,
+  "descriptor": "An open ended equity scheme investing in maximum 30 stocks in large-cap, mid-cap and small-cap category i.e. Multi-Cap"
+ },
+ {
+  "id": "hdfc-ftse-india-equity-etf",
+  "name": "HDFC FTSE India Equity ETF",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.69,
+  "holdings": 272,
+  "descriptor": "An Open Ended Scheme replicating/tracking the FTSE India Equity Index (TRI)"
+ },
+ {
+  "id": "hdfc-housing-opportunities-fund",
+  "name": "HDFC Housing Opportunities Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 96.86,
+  "holdings": 36,
+  "descriptor": "An open ended equity scheme following housing and allied activities theme"
+ },
+ {
+  "id": "hdfc-infrastructure-fund",
+  "name": "HDFC Infrastructure Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 98.58,
+  "holdings": 72,
+  "descriptor": "An open-ended equity scheme following infrastructure theme"
+ },
+ {
+  "id": "hdfc-innovation-fund",
+  "name": "HDFC Innovation Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 96.05,
+  "holdings": 89,
+  "descriptor": "An open-ended equity-oriented scheme following the innovation theme"
+ },
+ {
+  "id": "hdfc-large-and-mid-cap-fund",
+  "name": "HDFC Large & Mid Cap Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.33,
+  "holdings": 239,
+  "descriptor": "An open ended equity scheme investing in both large cap and mid cap stocks). (Formerly known as HDFC Large and Mid Cap Fund"
+ },
+ {
+  "id": "hdfc-large-cap-fund",
+  "name": "HDFC Large Cap Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 96.07,
+  "holdings": 45,
+  "descriptor": "An open ended equity scheme predominantly investing in large cap stocks"
+ },
+ {
+  "id": "hdfc-manufacturing-fund",
+  "name": "HDFC Manufacturing Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 98.57,
+  "holdings": 90,
+  "descriptor": "An open-ended equity scheme following manufacturing theme"
+ },
+ {
+  "id": "hdfc-medium-term-fund",
+  "name": "HDFC Medium Term Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 0.95,
+  "holdings": 1,
+  "descriptor": "An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the portfolio is between 3 years and 4 years). (Formerly known as HDFC Medium Term Debt Fund"
+ },
+ {
+  "id": "hdfc-medium-to-long-term-fund",
+  "name": "HDFC Medium to Long Term Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 0.54,
+  "holdings": 1,
+  "descriptor": "An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years and 7 years). (Formerly known as HDFC Income Fund"
+ },
+ {
+  "id": "hdfc-mid-cap-fund",
+  "name": "HDFC Mid Cap Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 93.09,
+  "holdings": 78,
+  "descriptor": "An open ended equity scheme predominantly investing in mid cap stocks"
+ },
+ {
+  "id": "hdfc-mnc-fund",
+  "name": "HDFC MNC Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.75,
+  "holdings": 45,
+  "descriptor": "An open ended equity scheme following multinational company MNC theme"
+ },
+ {
+  "id": "hdfc-multi-asset-allocation-fund",
+  "name": "HDFC Multi Asset Allocation Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 73.3,
+  "holdings": 75,
+  "descriptor": "An open ended scheme investing in Equity and Equity related instruments, Debt & Money Market Instruments and Gold). (Formerly known as HDFC Multi-Asset Allocation Fund"
+ },
+ {
+  "id": "hdfc-multi-cap-fund",
+  "name": "HDFC Multi Cap Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 98.97,
+  "holdings": 118,
+  "descriptor": "An open ended equity scheme investing across large cap, mid cap & small cap stocks"
+ },
+ {
+  "id": "hdfc-nifty-100-equal-weight-index-fund",
+  "name": "HDFC NIFTY 100 Equal Weight Index Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.75,
+  "holdings": 100,
+  "descriptor": "An open ended scheme replicating / tracking NIFTY 100 Index"
+ },
+ {
+  "id": "hdfc-nifty-100-etf",
+  "name": "HDFC Nifty 100 ETF",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.93,
+  "holdings": 100,
+  "descriptor": "An open ended scheme replicating/tracking NIFTY 100 Index TRI"
+ },
+ {
+  "id": "hdfc-nifty-100-index-fund",
+  "name": "HDFC NIFTY 100 Index Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.92,
+  "holdings": 100,
+  "descriptor": "An open ended scheme replicating / tracking NIFTY 100 Index"
+ },
+ {
+  "id": "hdfc-nifty-50-etf",
+  "name": "HDFC Nifty 50 ETF",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.95,
+  "holdings": 50,
+  "descriptor": "An open ended scheme replicating / tracking NIFTY 50 Index"
+ },
+ {
+  "id": "hdfc-nifty-50-index-fund",
+  "name": "HDFC Nifty 50 Index Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.02,
+  "holdings": 50,
+  "descriptor": "An open ended scheme replicating / tracking NIFTY 50 Index"
+ },
+ {
+  "id": "hdfc-nifty-auto-index-fund",
+  "name": "HDFC Nifty Auto Index Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.05,
+  "holdings": 15,
+  "descriptor": "An open ended scheme replicating/tracking Nifty Auto Index (TRI)"
+ },
+ {
+  "id": "hdfc-nifty-bank-etf",
+  "name": "HDFC Nifty Bank ETF",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.99,
+  "holdings": 14,
+  "descriptor": "An open ended scheme replicating / tracking NIFTY Bank Index"
+ },
+ {
+  "id": "hdfc-nifty-growth-sectors-15-etf",
+  "name": "HDFC Nifty Growth Sectors 15 ETF",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.96,
+  "holdings": 15,
+  "descriptor": "An open ended scheme replicating/tracking NIFTY Growth Sectors 15 Index TRI"
+ },
+ {
+  "id": "hdfc-nifty-india-consumption-index-fund",
+  "name": "HDFC Nifty India Consumption Index Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.01,
+  "holdings": 30,
+  "descriptor": "An open ended scheme replicating Nifty India Consumption Index TRI"
+ },
+ {
+  "id": "hdfc-nifty-india-digital-index-fund",
+  "name": "HDFC Nifty India Digital Index Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.92,
+  "holdings": 50,
+  "descriptor": "An open ended scheme replicating/tracking Nifty India Digital Index (TRI)"
+ },
+ {
+  "id": "hdfc-nifty-it-etf",
+  "name": "HDFC Nifty IT ETF",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.9,
+  "holdings": 10,
+  "descriptor": "An open ended scheme replicating/tracking NIFTY IT Index TRI"
+ },
+ {
+  "id": "hdfc-nifty-largemidcap-250-index-fund",
+  "name": "HDFC Nifty LargeMidcap 250 Index Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.91,
+  "holdings": 250,
+  "descriptor": "An open ended scheme replicating/tracking Nifty LargeMidcap 250 Index (TRI)"
+ },
+ {
+  "id": "hdfc-nifty-largemidcap250-plus-8-13-yr-g-sec-70-30-index-fund",
+  "name": "HDFC Nifty LargeMidcap250 Plus 8-13 yr G-Sec 70.30 Index Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 73.89,
+  "holdings": 250,
+  "descriptor": "An open ended scheme replicating/tracking Nifty LargeMidcap250 Plus 8-13 yr G-Sec 70.30 Index (TRI)"
+ },
+ {
+  "id": "hdfc-nifty-metal-etf",
+  "name": "HDFC Nifty Metal ETF",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.01,
+  "holdings": 15,
+  "descriptor": "An open ended scheme replicating/tracking Nifty Metal Index (TRI)"
+ },
+ {
+  "id": "hdfc-nifty-midcap-150-etf",
+  "name": "HDFC Nifty Midcap 150 ETF",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.97,
+  "holdings": 150,
+  "descriptor": "An open ended scheme replicating/tracking NIFTY Midcap 150 Index TRI"
+ },
+ {
+  "id": "hdfc-nifty-midcap-150-index-fund",
+  "name": "HDFC Nifty Midcap 150 Index Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.98,
+  "holdings": 150,
+  "descriptor": "An open ended scheme replicating / tracking NIFTY MIDCAP 150 INDEX FUND"
+ },
+ {
+  "id": "hdfc-nifty-next-50-etf",
+  "name": "HDFC Nifty Next 50 ETF",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.04,
+  "holdings": 50,
+  "descriptor": "An open ended scheme replicating/tracking NIFTY Next 50 Index TRI"
+ },
+ {
+  "id": "hdfc-nifty-next-50-index-fund",
+  "name": "HDFC NIFTY Next 50 Index Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.05,
+  "holdings": 50,
+  "descriptor": "An open ended scheme replicating / tracking NIFTY Next 50 Index"
+ },
+ {
+  "id": "hdfc-nifty-private-bank-etf",
+  "name": "HDFC NIFTY Private Bank ETF",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.99,
+  "holdings": 10,
+  "descriptor": "An open ended scheme replicating/tracking NIFTY Private Bank Index TRI"
+ },
+ {
+  "id": "hdfc-nifty-psu-bank-etf",
+  "name": "HDFC Nifty PSU Bank ETF",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.99,
+  "holdings": 12,
+  "descriptor": "An open ended scheme replicating/tracking NIFTY PSU Bank Index (TRI)"
+ },
+ {
+  "id": "hdfc-nifty-realty-index-fund",
+  "name": "HDFC Nifty Realty Index Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.88,
+  "holdings": 10,
+  "descriptor": "An open ended scheme replicating / tracking NIFTY Reality Index"
+ },
+ {
+  "id": "hdfc-nifty-smallcap-250-etf",
+  "name": "HDFC Nifty Smallcap 250 ETF",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.94,
+  "holdings": 251,
+  "descriptor": "An open ended scheme replicating/tracking NIFTY Small Cap 250 Index TRI"
+ },
+ {
+  "id": "hdfc-nifty-smallcap-250-index-fund",
+  "name": "HDFC Nifty Smallcap 250 Index Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.86,
+  "holdings": 251,
+  "descriptor": "An open ended scheme replicating / tracking NIFTY Smallcap 250 INDEX FUND"
+ },
+ {
+  "id": "hdfc-nifty-top-20-equal-weight-index-fund",
+  "name": "HDFC NIFTY Top 20 Equal Weight Index Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.95,
+  "holdings": 20,
+  "descriptor": "An open-ended scheme replicating / tracking NITFY Top 20 Equal Weight Index"
+ },
+ {
+  "id": "hdfc-nifty100-low-volatility-30-etf",
+  "name": "HDFC Nifty100 Low Volatility 30 ETF",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.99,
+  "holdings": 30,
+  "descriptor": "An open ended scheme replicating/tracking NIFTY100 Low volatility 30 Index TRI"
+ },
+ {
+  "id": "hdfc-nifty100-low-volatility-30-index-fund",
+  "name": "HDFC NIFTY100 Low Volatility 30 Index Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.05,
+  "holdings": 30,
+  "descriptor": "An open ended scheme replicating/tracking NIFTY100 Low Volatility 30 Index (TRI)"
+ },
+ {
+  "id": "hdfc-nifty100-quality-30-etf",
+  "name": "HDFC Nifty100 Quality 30 ETF",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.95,
+  "holdings": 30,
+  "descriptor": "An open ended scheme replicating/tracking NIFTY100 Quality 30 Index TRI"
+ },
+ {
+  "id": "hdfc-nifty100-quality-30-index-fund",
+  "name": "HDFC Nifty100 Quality 30 Index Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.9,
+  "holdings": 30,
+  "descriptor": "An open ended scheme replicating/tracking Nifty100 Quality 30 Index (TRI)"
+ },
+ {
+  "id": "hdfc-nifty200-momentum-30-etf",
+  "name": "HDFC Nifty200 Momentum 30 ETF",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.96,
+  "holdings": 30,
+  "descriptor": "An open ended scheme replicating/tracking NIFTY200 Momentum 30 Index TRI"
+ },
+ {
+  "id": "hdfc-nifty200-momentum-30-index-fund",
+  "name": "HDFC Nifty200 Momentum 30 Index Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.03,
+  "holdings": 30,
+  "descriptor": "An open ended scheme replicating / tracking 200 Momentum 30 Index"
+ },
+ {
+  "id": "hdfc-nifty50-equal-weight-index-fund",
+  "name": "HDFC NIFTY50 Equal weight Index Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.97,
+  "holdings": 50,
+  "descriptor": "An open ended scheme replicating / tracking NIFTY 50 Equal Weight Index"
+ },
+ {
+  "id": "hdfc-nifty50-value-20-etf",
+  "name": "HDFC Nifty50 Value 20 ETF",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.01,
+  "holdings": 20,
+  "descriptor": "An open ended scheme replicating/tracking NIFTY50 Value 20 Index TRI"
+ },
+ {
+  "id": "hdfc-nifty500-multicap-50-25-25-index-fund",
+  "name": "HDFC Nifty500 Multicap 50.25.25 Index Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.88,
+  "holdings": 501,
+  "descriptor": "An open ended scheme replicating/tracking Nifty500 Multicap 50.25.25 Index"
+ },
+ {
+  "id": "hdfc-pharma-and-healthcare-fund",
+  "name": "HDFC Pharma and Healthcare Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 98.79,
+  "holdings": 38,
+  "descriptor": "An open-ended equity scheme investing in Pharma and Healthcare related companies"
+ },
+ {
+  "id": "hdfc-retirement-fund-equity-plan",
+  "name": "HDFC Retirement Fund - Equity Plan",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 93.95,
+  "holdings": 72,
+  "descriptor": "An open ended retirement solution oriented scheme having a lock-in of 5 years or till retirement age whichever is earlier"
+ },
+ {
+  "id": "hdfc-retirement-fund-hybrid-debt-plan",
+  "name": "HDFC Retirement Fund - Hybrid-Debt Plan",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 44.25,
+  "holdings": 42,
+  "descriptor": "An open ended retirement solution oriented scheme having a lock-in of 5 years or till retirement age whichever is earlier). (Formerly HDFC Retirement Savings Fund - Hybrid-Debt Plan"
+ },
+ {
+  "id": "hdfc-retirement-fund-hybrid-equity-plan",
+  "name": "HDFC Retirement Fund - Hybrid-Equity Plan",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 73.94,
+  "holdings": 62,
+  "descriptor": "An open ended retirement solution oriented scheme having a lock-in of 5 years or till retirement age whichever is earlier"
+ },
+ {
+  "id": "hdfc-small-cap-fund",
+  "name": "HDFC Small Cap Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 90.18,
+  "holdings": 88,
+  "descriptor": "An open ended equity scheme predominantly investing in small cap stocks"
+ },
+ {
+  "id": "hdfc-technology-fund",
+  "name": "HDFC Technology Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.3,
+  "holdings": 27,
+  "descriptor": "An open-ended equity scheme investing in Technology & technology related companies"
+ },
+ {
+  "id": "hdfc-transportation-and-logistics-fund",
+  "name": "HDFC Transportation and Logistics Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.75,
+  "holdings": 35,
+  "descriptor": "An open-ended equity scheme investing in Transportation and Logistics themed companies"
+ },
+ {
+  "id": "hdfc-value-fund",
+  "name": "HDFC Value Fund",
+  "amc": "hdfc",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.4,
+  "holdings": 81,
+  "descriptor": "An open ended equity scheme following a value investment strategy"
+ },
+ {
+  "id": "motilal-oswal-active-momentum-fund",
+  "name": "Motilal Oswal Active Momentum Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 97.06,
+  "holdings": 31,
+  "descriptor": "An open-ended equity scheme following momentum factor theme"
+ },
+ {
+  "id": "motilal-oswal-arbitrage-fund",
+  "name": "Motilal Oswal Arbitrage Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 68.03,
+  "holdings": 115,
+  "descriptor": "An open ended equity scheme investing in arbitrage opportunities. No investment in InvITs is permitted."
+ },
+ {
+  "id": "motilal-oswal-balanced-advantage-fund",
+  "name": "Motilal Oswal Balanced Advantage Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 72.73,
+  "holdings": 27,
+  "descriptor": "An open ended dynamic asset allocation fund investing in debt and equity instruments only"
+ },
+ {
+  "id": "motilal-oswal-bse-1000-index-fund",
+  "name": "Motilal Oswal BSE 1000 Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.02,
+  "holdings": 893,
+  "descriptor": "An open-ended fund replicating / tracking the BSE 1000 Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-bse-clean-environment-index-fund",
+  "name": "Motilal Oswal BSE Clean Environment Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.87,
+  "holdings": 29,
+  "descriptor": "An open-ended fund replicating/tracking the BSE Clean Environment Index"
+ },
+ {
+  "id": "motilal-oswal-bse-enhanced-value-etf",
+  "name": "Motilal Oswal BSE Enhanced Value ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.99,
+  "holdings": 30,
+  "descriptor": "An open ended scheme replicating / tracking the BSE Enhanced Value Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-bse-enhanced-value-index-fund",
+  "name": "Motilal Oswal BSE Enhanced Value Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.97,
+  "holdings": 30,
+  "descriptor": "An open ended fund replicating / tracking the BSE Enhanced Value Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-bse-financials-ex-bank-30-index-fund",
+  "name": "Motilal Oswal BSE Financials ex Bank 30 Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.68,
+  "holdings": 30,
+  "descriptor": "An open ended fund replicating / tracking the BSE Financials ex Bank 30 Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-bse-healthcare-etf",
+  "name": "Motilal Oswal BSE Healthcare ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.92,
+  "holdings": 138,
+  "descriptor": "An open ended scheme replicating / tracking the BSE Healthcare Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-bse-india-infrastructure-etf",
+  "name": "Motilal Oswal BSE India Infrastructure ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.8,
+  "holdings": 30,
+  "descriptor": "An open-ended scheme replicating/tracking the BSE India Infrastructure Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-bse-low-volatility-etf",
+  "name": "Motilal Oswal BSE Low Volatility ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.02,
+  "holdings": 30,
+  "descriptor": "An open ended fund replicating / tracking the BSE Low Volatility Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-bse-low-volatility-index-fund",
+  "name": "Motilal Oswal BSE low Volatility Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.92,
+  "holdings": 30,
+  "descriptor": "An open end fund replicating / tracking the BSE Low Volatility Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-bse-midcap-150-momentum-30-index-fund",
+  "name": "Motilal Oswal BSE Midcap 150 Momentum 30 Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.9,
+  "holdings": 30,
+  "descriptor": "An open-ended fund replicating/tracking the BSE Midcap 150 Momentum 30 Index"
+ },
+ {
+  "id": "motilal-oswal-bse-quality-etf",
+  "name": "Motilal Oswal BSE Quality ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.91,
+  "holdings": 30,
+  "descriptor": "An open ended fund replicating / tracking the BSE Quality Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-bse-quality-index-fund",
+  "name": "Motilal Oswal BSE Quality Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.91,
+  "holdings": 30,
+  "descriptor": "An open ended fund replicating / tracking the BSE Quality Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-bse-select-ipo-etf",
+  "name": "Motilal Oswal BSE Select IPO ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.87,
+  "holdings": 71,
+  "descriptor": "An open-ended scheme replicating/tracking the BSE Select IPO Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-bse-top-10-banks-etf",
+  "name": "Motilal Oswal BSE Top 10 Banks ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.02,
+  "holdings": 10,
+  "descriptor": "An open-ended scheme replicating/tracking the BSE Top 10 Banks - TRI"
+ },
+ {
+  "id": "motilal-oswal-business-cycle-fund",
+  "name": "Motilal Oswal Business Cycle Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 89.13,
+  "holdings": 28,
+  "descriptor": "An open-ended equity scheme following business cycles based investing theme"
+ },
+ {
+  "id": "motilal-oswal-consumption-fund",
+  "name": "Motilal Oswal Consumption Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 95.02,
+  "holdings": 35,
+  "descriptor": "An open-ended equity scheme following consumption theme"
+ },
+ {
+  "id": "motilal-oswal-contra-fund",
+  "name": "Motilal Oswal Contra Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 88.13,
+  "holdings": 36,
+  "descriptor": "An open-ended equity scheme following contrarian investment strategy"
+ },
+ {
+  "id": "motilal-oswal-digital-india-fund",
+  "name": "Motilal Oswal Digital India Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 88.96,
+  "holdings": 25,
+  "descriptor": "An open-ended equity scheme investing in Digital space focusing on Technology, Telecom, Media, Entertainment and other related ancillary sectors"
+ },
+ {
+  "id": "motilal-oswal-elss-tax-saver-fund",
+  "name": "Motilal Oswal ELSS Tax Saver Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 95.97,
+  "holdings": 31,
+  "descriptor": "An open ended scheme with attributes in accordance with Equity Linked Saving Scheme, 2005 notified by Ministry of Finance."
+ },
+ {
+  "id": "motilal-oswal-financial-services-fund",
+  "name": "Motilal Oswal Financial Services Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 90.32,
+  "holdings": 25,
+  "descriptor": "An open-ended equity scheme investing in Financial Services Sector"
+ },
+ {
+  "id": "motilal-oswal-flexicap-fund",
+  "name": "Motilal Oswal Flexicap Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 97.33,
+  "holdings": 32,
+  "descriptor": "An open ended dynamic equity scheme investing across large cap, mid cap, small cap stocks"
+ },
+ {
+  "id": "motilal-oswal-focused-fund",
+  "name": "Motilal Oswal Focused Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 95.48,
+  "holdings": 29,
+  "descriptor": "An open ended equity scheme investing in maximum 30 stocks with focus in multi cap space."
+ },
+ {
+  "id": "motilal-oswal-infrastructure-fund",
+  "name": "Motilal Oswal Infrastructure Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 93.24,
+  "holdings": 27,
+  "descriptor": "An open-ended equity scheme following infrastructure theme"
+ },
+ {
+  "id": "motilal-oswal-innovation-opportunities-fund",
+  "name": "Motilal Oswal Innovation Opportunities Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 85.9,
+  "holdings": 30,
+  "descriptor": "An open-ended equity scheme following innovation theme"
+ },
+ {
+  "id": "motilal-oswal-large-and-midcap-fund",
+  "name": "Motilal Oswal Large and Midcap Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 98.2,
+  "holdings": 34,
+  "descriptor": "An open ended scheme investing in both large cap and midcap stock"
+ },
+ {
+  "id": "motilal-oswal-large-cap-fund",
+  "name": "Motilal Oswal Large Cap Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.75,
+  "holdings": 56,
+  "descriptor": "An open-ended equity scheme predominantly investing in large cap stocks"
+ },
+ {
+  "id": "motilal-oswal-manufacturing-fund",
+  "name": "Motilal Oswal Manufacturing Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 90.09,
+  "holdings": 33,
+  "descriptor": "An open-ended equity scheme following manufacturing theme"
+ },
+ {
+  "id": "motilal-oswal-midcap-fund",
+  "name": "Motilal Oswal Midcap Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 95.21,
+  "holdings": 31,
+  "descriptor": "An open ended equity scheme predominantly investing in mid cap stocks"
+ },
+ {
+  "id": "motilal-oswal-multi-cap-fund",
+  "name": "Motilal Oswal Multi Cap Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 95.17,
+  "holdings": 37,
+  "descriptor": "An open-ended equity scheme investing across large cap, mid cap, small cap stocks"
+ },
+ {
+  "id": "motilal-oswal-nasdaq-100-etf",
+  "name": "Motilal Oswal Nasdaq 100 ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.02,
+  "holdings": 101,
+  "descriptor": "An open ended scheme replicating/tracking NASDAQ-100 Index"
+ },
+ {
+  "id": "motilal-oswal-nasdaq-q50-etf",
+  "name": "Motilal Oswal Nasdaq Q50 ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.88,
+  "holdings": 51,
+  "descriptor": "An open ended scheme replicating/tracking Nasdaq Q-50 Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-100-etf",
+  "name": "Motilal Oswal Nifty 100 ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.89,
+  "holdings": 100,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty 100 Total Return Index Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-200-momentum-30-etf",
+  "name": "Motilal Oswal Nifty 200 Momentum 30 ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.99,
+  "holdings": 30,
+  "descriptor": "An open ended fund replicating / tracking the Nifty 200 Momentum 30 Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-200-momentum-30-index-fund",
+  "name": "Motilal Oswal Nifty 200 Momentum 30 Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.99,
+  "holdings": 30,
+  "descriptor": "An open ended fund replicating / tracking the Nifty 200 Momentum 30 Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-50-equal-weight-etf",
+  "name": "Motilal Oswal Nifty 50 Equal Weight ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.98,
+  "holdings": 50,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty 50 Equal Weight Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-50-etf",
+  "name": "Motilal Oswal Nifty 50 ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.93,
+  "holdings": 50,
+  "descriptor": "An open ended scheme replicating/tracking Nifty 50 Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-50-index-fund",
+  "name": "Motilal Oswal Nifty 50 Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.95,
+  "holdings": 50,
+  "descriptor": "An open ended scheme replicating / tracking Nifty 50 Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-500-etf",
+  "name": "Motilal Oswal Nifty 500 ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.0,
+  "holdings": 500,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty 500 Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-500-index-fund",
+  "name": "Motilal Oswal Nifty 500 Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.0,
+  "holdings": 500,
+  "descriptor": "(An open ended scheme replicating / tracking Nifty 500 Total Return Index))"
+ },
+ {
+  "id": "motilal-oswal-nifty-500-momentum-50-etf",
+  "name": "Motilal Oswal Nifty 500 Momentum 50 ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.0,
+  "holdings": 50,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty 500 Momentum 50 Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-500-momentum-50-index-fund",
+  "name": "Motilal Oswal Nifty 500 Momentum 50 Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.02,
+  "holdings": 50,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty 500 Momentum 50 Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-alpha-50-etf",
+  "name": "Motilal Oswal Nifty Alpha 50 ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.8,
+  "holdings": 50,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty Alpha 50 Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-bank-index-fund",
+  "name": "Motilal Oswal Nifty Bank Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.0,
+  "holdings": 14,
+  "descriptor": "An open ended scheme replicating / tracking Nifty Bank Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-capital-market-etf",
+  "name": "Motilal Oswal Nifty Capital Market ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.91,
+  "holdings": 17,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty Capital Market Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-capital-market-index-fund",
+  "name": "Motilal Oswal Nifty Capital Market Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.95,
+  "holdings": 17,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty Capital Market Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-energy-etf",
+  "name": "Motilal Oswal Nifty Energy ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.99,
+  "holdings": 40,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty Energy Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-india-defence-etf",
+  "name": "Motilal Oswal Nifty India Defence ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.05,
+  "holdings": 22,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty India Defence Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-india-defence-index-fund",
+  "name": "Motilal Oswal Nifty India Defence Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.06,
+  "holdings": 22,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty India Defence Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-india-manufacturing-etf",
+  "name": "Motilal Oswal Nifty India Manufacturing ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.98,
+  "holdings": 77,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty India Manufacturing Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-india-tourism-etf",
+  "name": "Motilal Oswal Nifty India Tourism ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.01,
+  "holdings": 11,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty India Tourism Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-metal-etf",
+  "name": "Motilal Oswal Nifty Metal ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.64,
+  "holdings": 15,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty Metal Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-microcap-250-index-fund",
+  "name": "Motilal Oswal Nifty Microcap 250 Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.11,
+  "holdings": 252,
+  "descriptor": "An open-ended fund replicating / tracking the Nifty Microcap 250 Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-midcap-100-etf",
+  "name": "Motilal Oswal Nifty Midcap 100 ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.98,
+  "holdings": 100,
+  "descriptor": "An open ended scheme replicating/tracking Nifty Midcap 100 Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-midcap-150-index-fund",
+  "name": "Motilal Oswal Nifty Midcap 150 Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.03,
+  "holdings": 150,
+  "descriptor": "An open ended scheme replicating / tracking Nifty Midcap 150 Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-midcap-150-momentum-50-etf",
+  "name": "Motilal Oswal Nifty Midcap 150 Momentum 50 ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.98,
+  "holdings": 50,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty Midcap 150 Momentum 50 Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-midcap150-plus-8-13yr-gsec-70-30-index-fund",
+  "name": "Motilal Oswal Nifty Midcap150 Plus 8-13yr GSec 70:30 Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 69.74,
+  "holdings": 150,
+  "descriptor": "An open-ended fund replicating/tracking the Nifty Midcap150 Plus 8-13 yr G-Sec 70:30 Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-midsmall-financial-services-index-fund",
+  "name": "Motilal Oswal Nifty MidSmall Financial Services Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.95,
+  "holdings": 30,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty MidSmall Financial Services Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-midsmall-healthcare-index-fund",
+  "name": "Motilal Oswal Nifty MidSmall Healthcare Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.0,
+  "holdings": 30,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty MidSmall Healthcare Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-midsmall-india-consumption-index-fund",
+  "name": "Motilal Oswal Nifty MidSmall India Consumption Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.09,
+  "holdings": 30,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty MidSmall India Consumption Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-midsmall-it-and-telecom-index-fund",
+  "name": "Motilal Oswal Nifty MidSmall IT and Telecom Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.08,
+  "holdings": 20,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty MidSmall IT and Telecom Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-mnc-etf",
+  "name": "Motilal Oswal Nifty MNC ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.56,
+  "holdings": 30,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty MNC Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-next-50-etf",
+  "name": "Motilal Oswal Nifty Next 50 ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.05,
+  "holdings": 50,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty Next 50 Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-next-50-index-fund",
+  "name": "Motilal Oswal Nifty Next 50 Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.05,
+  "holdings": 50,
+  "descriptor": "An open ended scheme replicating / tracking Nifty Next 50 Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-oil-and-gas-etf",
+  "name": "Motilal Oswal Nifty Oil & Gas ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.64,
+  "holdings": 15,
+  "descriptor": "An open ended fund replicating / tracking the Nifty Oil & Gas Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-pse-etf",
+  "name": "Motilal Oswal Nifty PSE ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.72,
+  "holdings": 20,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty PSE Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-realty-etf",
+  "name": "Motilal Oswal Nifty Realty ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.04,
+  "holdings": 10,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty Realty TR Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-reits-and-realty-index-fund",
+  "name": "Motilal Oswal Nifty REITs & Realty Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.71,
+  "holdings": 15,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty REITs & Realty Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-services-sector-etf",
+  "name": "Motilal Oswal Nifty Services Sector ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.88,
+  "holdings": 30,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty Services Sector Total Return Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-smallcap-250-etf",
+  "name": "Motilal Oswal Nifty Smallcap 250 ETF",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.0,
+  "holdings": 251,
+  "descriptor": "An open-ended scheme replicating/tracking the Nifty Smallcap 250 TR Index"
+ },
+ {
+  "id": "motilal-oswal-nifty-smallcap-250-index-fund",
+  "name": "Motilal Oswal Nifty Smallcap 250 Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.96,
+  "holdings": 251,
+  "descriptor": "An open ended scheme replicating / tracking Nifty Smallcap 250 Index"
+ },
+ {
+  "id": "motilal-oswal-quality-fund",
+  "name": "Motilal Oswal Quality Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 86.28,
+  "holdings": 23,
+  "descriptor": "An open-ended equity scheme following the Quality Factor Theme"
+ },
+ {
+  "id": "motilal-oswal-quant-fund",
+  "name": "Motilal Oswal Quant Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 98.98,
+  "holdings": 26,
+  "descriptor": "An open-ended equity scheme investing based on a quant investment framework"
+ },
+ {
+  "id": "motilal-oswal-s-and-p-500-index-fund",
+  "name": "Motilal Oswal S&P 500 Index Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.72,
+  "holdings": 503,
+  "descriptor": "An open ended scheme replicating / tracking S&P 500 Index"
+ },
+ {
+  "id": "motilal-oswal-services-fund",
+  "name": "Motilal Oswal Services Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.14,
+  "holdings": 32,
+  "descriptor": "An open-ended equity scheme investing in Services Sector"
+ },
+ {
+  "id": "motilal-oswal-small-cap-fund",
+  "name": "Motilal Oswal Small Cap Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 96.37,
+  "holdings": 63,
+  "descriptor": "An open-ended equity scheme predominantly investing in small cap stocks."
+ },
+ {
+  "id": "motilal-oswal-special-opportunities-fund",
+  "name": "Motilal Oswal Special Opportunities Fund",
+  "amc": "motilal",
+  "as_of": "2026-10-31",
+  "equity_pct": 89.38,
+  "holdings": 29,
+  "descriptor": "An open-ended equity scheme following special situation’s theme"
+ },
+ {
+  "id": "navi-aggressive-hybrid-fund",
+  "name": "Navi Aggressive Hybrid Fund",
+  "amc": "navi",
+  "as_of": "2026-10-31",
+  "equity_pct": 72.74,
+  "holdings": 60
+ },
+ {
+  "id": "navi-bse-sensex-index-fund",
+  "name": "Navi BSE Sensex Index Fund",
+  "amc": "navi",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.55,
+  "holdings": 30
+ },
+ {
+  "id": "navi-elss-tax-saver-nifty-50-index-fund",
+  "name": "Navi ELSS Tax Saver Nifty 50 Index Fund",
+  "amc": "navi",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.98,
+  "holdings": 50
+ },
+ {
+  "id": "navi-flexi-cap-fund",
+  "name": "Navi Flexi Cap Fund",
+  "amc": "navi",
+  "as_of": "2026-10-31",
+  "equity_pct": 92.87,
+  "holdings": 71
+ },
+ {
+  "id": "navi-large-and-midcap-fund",
+  "name": "Navi Large & Midcap Fund",
+  "amc": "navi",
+  "as_of": "2026-10-31",
+  "equity_pct": 95.37,
+  "holdings": 80
+ },
+ {
+  "id": "navi-nifty-50-index-fund",
+  "name": "Navi Nifty 50 Index Fund",
+  "amc": "navi",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.95,
+  "holdings": 50
+ },
+ {
+  "id": "navi-nifty-500-multicap-50-25-25-index",
+  "name": "Navi Nifty 500 Multicap 50:25:25 Index",
+  "amc": "navi",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.56,
+  "holdings": 498
+ },
+ {
+  "id": "navi-nifty-bank-index-fund",
+  "name": "Navi Nifty Bank Index Fund",
+  "amc": "navi",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.11,
+  "holdings": 14
+ },
+ {
+  "id": "navi-nifty-india-manufacturing-indx-fund",
+  "name": "Navi Nifty India Manufacturing Indx Fund",
+  "amc": "navi",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.04,
+  "holdings": 77
+ },
+ {
+  "id": "navi-nifty-it-index-fund",
+  "name": "Navi Nifty IT Index Fund",
+  "amc": "navi",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.64,
+  "holdings": 10
+ },
+ {
+  "id": "navi-nifty-midcap-150-index-fund",
+  "name": "Navi Nifty Midcap 150 Index fund",
+  "amc": "navi",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.05,
+  "holdings": 149
+ },
+ {
+  "id": "navi-nifty-midsmallcap-400-index-fund",
+  "name": "Navi Nifty MidSmallcap 400 Index Fund",
+  "amc": "navi",
+  "as_of": "2026-10-31",
+  "equity_pct": 91.2,
+  "holdings": 398
+ },
+ {
+  "id": "navi-nifty-next-50-index-fund",
+  "name": "Navi Nifty Next 50 Index Fund",
+  "amc": "navi",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.09,
+  "holdings": 50
+ },
+ {
+  "id": "navi-nifty-reits-and-realty-index-fund",
+  "name": "Navi Nifty REITs and Realty Index Fund",
+  "amc": "navi",
+  "as_of": "2026-10-31",
+  "equity_pct": 39.4,
+  "holdings": 9
+ },
+ {
+  "id": "navi-nifty-smallcap250-momentum-qlty-100",
+  "name": "Navi Nifty SmallCap250 Momentum Qlty 100",
+  "amc": "navi",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.18,
+  "holdings": 100
+ },
+ {
+  "id": "nippon-cpse-etf",
+  "name": "CPSE ETF",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.97,
+  "holdings": 11,
+  "descriptor": "An Open Ended Index Exchange Traded Fund"
+ },
+ {
+  "id": "nippon-india-active-momentum-fund",
+  "name": "Nippon India Active Momentum Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 92.34,
+  "holdings": 38,
+  "descriptor": "An Open Ended Equity Scheme investing in momentum theme."
+ },
+ {
+  "id": "nippon-india-aggressive-hybrid-fund",
+  "name": "Nippon India Aggressive Hybrid Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 76.63,
+  "holdings": 83,
+  "descriptor": "An Open Ended Hybrid Scheme Investing Predominantly In Equity And Equity Related Instruments"
+ },
+ {
+  "id": "nippon-india-arbitrage-fund",
+  "name": "Nippon India Arbitrage Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 67.47,
+  "holdings": 159,
+  "descriptor": "An open ended scheme investing in arbitrage opportunities. No investment in InvITs is permitted."
+ },
+ {
+  "id": "nippon-india-balanced-advantage-fund",
+  "name": "Nippon India Balanced Advantage Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 75.34,
+  "holdings": 77,
+  "descriptor": "An open-ended dynamic asset allocation fund investing in debt and equity instruments only"
+ },
+ {
+  "id": "nippon-india-banking-and-financial-services-fund",
+  "name": "Nippon India Banking & Financial Services Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.02,
+  "holdings": 35,
+  "descriptor": "An open ended equity scheme investing in Banking & Financial Services Sector"
+ },
+ {
+  "id": "nippon-india-bse-sensex-next-30-etf",
+  "name": "Nippon India BSE Sensex Next 30 ETF",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.83,
+  "holdings": 30,
+  "descriptor": "An open-ended scheme replicating/ tracking BSE Sensex Next 30 Index"
+ },
+ {
+  "id": "nippon-india-bse-sensex-next-30-index-fund",
+  "name": "Nippon India BSE Sensex Next 30 Index Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.93,
+  "holdings": 30,
+  "descriptor": "An open-ended scheme replicating/tracking BSE Sensex Next 30 Index"
+ },
+ {
+  "id": "nippon-india-conservative-hybrid-fund",
+  "name": "Nippon India Conservative Hybrid Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 15.8,
+  "holdings": 50,
+  "descriptor": "An Open Ended Hybrid Scheme Investing Predominantly In Debt Instruments"
+ },
+ {
+  "id": "nippon-india-consumption-fund",
+  "name": "Nippon India Consumption Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 98.89,
+  "holdings": 44,
+  "descriptor": "An Open Ended Equity Scheme investing in consumption theme"
+ },
+ {
+  "id": "nippon-india-elss-tax-saver-fund",
+  "name": "Nippon India ELSS Tax Saver Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.12,
+  "holdings": 62,
+  "descriptor": "An open-ended scheme with attributes in accordance with Equity Linked Saving Scheme, 2005 notified by Ministry of Finance"
+ },
+ {
+  "id": "nippon-india-equity-savings-fund",
+  "name": "Nippon India Equity Savings Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 79.41,
+  "holdings": 50,
+  "descriptor": "An open ended scheme investing in equity, arbitrage and debt"
+ },
+ {
+  "id": "nippon-india-etf-bse-sensex",
+  "name": "Nippon India ETF BSE Sensex",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.99,
+  "holdings": 30,
+  "descriptor": "An Open Ended Index Exchange Traded Fund"
+ },
+ {
+  "id": "nippon-india-etf-bse-sensex-next-50",
+  "name": "Nippon India ETF BSE Sensex Next 50",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.95,
+  "holdings": 50,
+  "descriptor": "An Open Ended Index Exchange Traded Fund"
+ },
+ {
+  "id": "nippon-india-etf-hang-seng-bees",
+  "name": "Nippon India ETF Hang Seng BeES",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.7,
+  "holdings": 95,
+  "descriptor": "An Open Ended Index Exchange Traded Fund"
+ },
+ {
+  "id": "nippon-india-etf-nifty-100",
+  "name": "Nippon India ETF Nifty 100",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.89,
+  "holdings": 100,
+  "descriptor": "An Open Ended Index Exchange Traded Fund"
+ },
+ {
+  "id": "nippon-india-etf-nifty-50-bees",
+  "name": "Nippon India ETF Nifty 50 Bees",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.95,
+  "holdings": 50,
+  "descriptor": "An Open Ended Index Exchange Traded Fund"
+ },
+ {
+  "id": "nippon-india-etf-nifty-50-shariah-bees",
+  "name": "Nippon India ETF Nifty 50 Shariah BeES",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.63,
+  "holdings": 17,
+  "descriptor": "An Open Ended Index Exchange Traded Fund"
+ },
+ {
+  "id": "nippon-india-etf-nifty-50-value-20",
+  "name": "Nippon India ETF Nifty 50 Value 20",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.94,
+  "holdings": 20,
+  "descriptor": "A Open Ended Index Exchange Traded Fund"
+ },
+ {
+  "id": "nippon-india-etf-nifty-bank-bees",
+  "name": "Nippon India ETF Nifty Bank Bees",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.98,
+  "holdings": 14,
+  "descriptor": "An Open Ended Index Exchange Traded Fund"
+ },
+ {
+  "id": "nippon-india-etf-nifty-dividend-opportunities-50",
+  "name": "Nippon India ETF Nifty Dividend Opportunities 50",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.82,
+  "holdings": 50,
+  "descriptor": "An Open Ended Index Exchange Traded Fund"
+ },
+ {
+  "id": "nippon-india-etf-nifty-india-consumption",
+  "name": "Nippon India ETF Nifty India Consumption",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.95,
+  "holdings": 30,
+  "descriptor": "An Open Ended Index Exchange Traded Fund"
+ },
+ {
+  "id": "nippon-india-etf-nifty-infrastructure-bees",
+  "name": "Nippon India ETF Nifty Infrastructure Bees",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.83,
+  "holdings": 30,
+  "descriptor": "An Open Ended Index Exchange Traded Fund"
+ },
+ {
+  "id": "nippon-india-etf-nifty-it",
+  "name": "Nippon India ETF Nifty IT",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.87,
+  "holdings": 10,
+  "descriptor": "An open ended scheme replicating/ tracking NIFTY IT Index"
+ },
+ {
+  "id": "nippon-india-etf-nifty-midcap-150",
+  "name": "Nippon India ETF Nifty Midcap 150",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.96,
+  "holdings": 149,
+  "descriptor": "An Open Ended Index Exchange Traded Fund"
+ },
+ {
+  "id": "nippon-india-etf-nifty-next-50-junior-bees",
+  "name": "Nippon India ETF Nifty Next 50 Junior Bees",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.04,
+  "holdings": 50,
+  "descriptor": "An Open Ended Index Exchange Traded Fund"
+ },
+ {
+  "id": "nippon-india-etf-nifty-psu-bank-bees",
+  "name": "Nippon India ETF Nifty PSU Bank Bees",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.95,
+  "holdings": 12,
+  "descriptor": "An Open Ended Index Exchange Traded Fund"
+ },
+ {
+  "id": "nippon-india-flexi-cap-fund",
+  "name": "Nippon India Flexi Cap Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.09,
+  "holdings": 86,
+  "descriptor": "An open ended dynamic equity scheme investing across large cap, mid cap, small cap stocks"
+ },
+ {
+  "id": "nippon-india-focused-fund",
+  "name": "Nippon India Focused Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 98.8,
+  "holdings": 30,
+  "descriptor": "An Open Ended Multi Cap Equity Scheme Investing In Maximum 30 Stocks"
+ },
+ {
+  "id": "nippon-india-growth-mid-cap-fund",
+  "name": "Nippon India Growth Mid Cap Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.86,
+  "holdings": 100,
+  "descriptor": "An open-ended equity scheme predominantly investing in mid cap stocks"
+ },
+ {
+  "id": "nippon-india-index-fund-bse-sensex-plan",
+  "name": "Nippon India Index Fund - BSE Sensex Plan",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.99,
+  "holdings": 30,
+  "descriptor": "An open ended scheme replicating / tracking BSE Sensex Plan"
+ },
+ {
+  "id": "nippon-india-index-fund-nifty-50-plan",
+  "name": "Nippon India Index Fund - Nifty 50 Plan",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.95,
+  "holdings": 50,
+  "descriptor": "An open ended scheme replicating / tracking Nifty 50"
+ },
+ {
+  "id": "nippon-india-innovation-fund",
+  "name": "Nippon India Innovation Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 98.86,
+  "holdings": 59,
+  "descriptor": "An open ended equity scheme investing in innovation theme"
+ },
+ {
+  "id": "nippon-india-japan-equity-fund",
+  "name": "Nippon India Japan Equity Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 91.64,
+  "holdings": 30,
+  "descriptor": "An Open Ended Equity Scheme investing in Japan Focused theme"
+ },
+ {
+  "id": "nippon-india-large-cap-fund",
+  "name": "Nippon India Large Cap Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 97.78,
+  "holdings": 68,
+  "descriptor": "An Open Ended Equity Scheme Predominantly Investing In Large Cap Stocks"
+ },
+ {
+  "id": "nippon-india-mnc-fund",
+  "name": "Nippon India MNC Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 96.11,
+  "holdings": 38,
+  "descriptor": "An Open Ended Equity Scheme investing in multinational company (MNC) theme"
+ },
+ {
+  "id": "nippon-india-multi-asset-allocation-fund",
+  "name": "Nippon India Multi Asset Allocation Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 59.87,
+  "holdings": 91,
+  "descriptor": "An open ended scheme investing in Equity, Debt and Exchange Traded Commodity Derivatives and Gold ETF & Silver ETF"
+ },
+ {
+  "id": "nippon-india-multi-cap-fund",
+  "name": "Nippon India Multi Cap Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 97.8,
+  "holdings": 123,
+  "descriptor": "An open-ended equity scheme investing across large cap, mid cap, small cap stocks"
+ },
+ {
+  "id": "nippon-india-nifty-50-value-20-index-fund",
+  "name": "Nippon India Nifty 50 Value 20 Index Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.93,
+  "holdings": 20,
+  "descriptor": "An open ended scheme replicating/tracking Nifty 50 Value 20 Index"
+ },
+ {
+  "id": "nippon-india-nifty-500-equal-weight-index-fund",
+  "name": "Nippon India Nifty 500 Equal Weight Index Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.82,
+  "holdings": 500,
+  "descriptor": "An open-ended scheme replicating/tracking Nifty 500 Equal Weight Index"
+ },
+ {
+  "id": "nippon-india-nifty-500-low-volatility-50-index-fund",
+  "name": "Nippon India Nifty 500 Low Volatility 50 Index Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.83,
+  "holdings": 50,
+  "descriptor": "An open-ended scheme replicating/tracking Nifty 500 Low Volatility 50 Index"
+ },
+ {
+  "id": "nippon-india-nifty-500-momentum-50-index-fund",
+  "name": "Nippon India Nifty 500 Momentum 50 Index Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 100.0,
+  "holdings": 50,
+  "descriptor": "An open-ended scheme replicating/tracking Nifty 500 Momentum 50 Index"
+ },
+ {
+  "id": "nippon-india-nifty-500-quality-50-index-fund",
+  "name": "Nippon India Nifty 500 Quality 50 Index Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.79,
+  "holdings": 49,
+  "descriptor": "An open-ended scheme replicating/tracking Nifty 500 Quality 50 Index"
+ },
+ {
+  "id": "nippon-india-nifty-alpha-low-volatility-30-index-fund",
+  "name": "Nippon India Nifty Alpha Low Volatility 30 Index Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.98,
+  "holdings": 30,
+  "descriptor": "An open-ended scheme replicating/ tracking Nifty Alpha Low Volatility 30 Index"
+ },
+ {
+  "id": "nippon-india-nifty-auto-etf",
+  "name": "Nippon India Nifty Auto ETF",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.98,
+  "holdings": 15,
+  "descriptor": "An open ended scheme replicating/ tracking NIFTY Auto Index"
+ },
+ {
+  "id": "nippon-india-nifty-auto-index-fund",
+  "name": "Nippon India Nifty Auto Index Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.95,
+  "holdings": 15,
+  "descriptor": "An open-ended scheme replicating/tracking Nifty Auto Index"
+ },
+ {
+  "id": "nippon-india-nifty-bank-index-fund",
+  "name": "Nippon India Nifty Bank Index Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.96,
+  "holdings": 14,
+  "descriptor": "An open-ended scheme replicating/tracking Nifty Bank Index"
+ },
+ {
+  "id": "nippon-india-nifty-india-manufacturing-etf",
+  "name": "Nippon India Nifty India Manufacturing ETF",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.86,
+  "holdings": 77,
+  "descriptor": "An open-ended scheme replicating/ tracking Nifty India Manufacturing Index"
+ },
+ {
+  "id": "nippon-india-nifty-india-manufacturing-index-fund",
+  "name": "Nippon India Nifty India Manufacturing Index Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.66,
+  "holdings": 77,
+  "descriptor": "An open-ended scheme replicating/ tracking Nifty India Manufacturing Index"
+ },
+ {
+  "id": "nippon-india-nifty-it-index-fund",
+  "name": "Nippon India Nifty IT Index Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.53,
+  "holdings": 10,
+  "descriptor": "An open-ended scheme replicating/tracking Nifty IT Index"
+ },
+ {
+  "id": "nippon-india-nifty-midcap-150-index-fund",
+  "name": "Nippon India Nifty Midcap 150 Index Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.98,
+  "holdings": 149,
+  "descriptor": "An open ended scheme replicating/tracking Nifty Midcap 150 Index"
+ },
+ {
+  "id": "nippon-india-nifty-pharma-etf",
+  "name": "Nippon India Nifty Pharma ETF",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.97,
+  "holdings": 20,
+  "descriptor": "An open ended scheme replicating/ tracking NIFTY Pharma Index"
+ },
+ {
+  "id": "nippon-india-nifty-realty-index-fund",
+  "name": "Nippon India Nifty Realty Index Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.98,
+  "holdings": 10,
+  "descriptor": "An open-ended scheme replicating/tracking Nifty Realty Index"
+ },
+ {
+  "id": "nippon-india-nifty-smallcap-250-index-fund",
+  "name": "Nippon India Nifty Smallcap 250 Index Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.93,
+  "holdings": 251,
+  "descriptor": "An open ended scheme replicating/tracking Nifty Smallcap 250 Index"
+ },
+ {
+  "id": "nippon-india-pharma-fund",
+  "name": "Nippon India Pharma Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.62,
+  "holdings": 37,
+  "descriptor": "An Open Ended Equity Scheme Investing In Pharma Sector"
+ },
+ {
+  "id": "nippon-india-power-and-infra-fund",
+  "name": "Nippon India Power & Infra Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.36,
+  "holdings": 86,
+  "descriptor": "An Open Ended Equity Scheme Investing In Power & Infrastructure Sectors"
+ },
+ {
+  "id": "nippon-india-quant-fund",
+  "name": "Nippon India Quant Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 93.98,
+  "holdings": 32,
+  "descriptor": "An Open Ended Equity Scheme Investing In Quant Model Theme"
+ },
+ {
+  "id": "nippon-india-retirement-fund-income-generation-scheme",
+  "name": "Nippon India Retirement Fund - Income Generation Scheme",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 19.44,
+  "holdings": 21,
+  "descriptor": "An open ended retirement solution oriented scheme having a lock-in of 5 years or till retirement age (whichever is earlier)"
+ },
+ {
+  "id": "nippon-india-retirement-fund-wealth-creation-scheme",
+  "name": "Nippon India Retirement Fund - Wealth Creation Scheme",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.34,
+  "holdings": 71,
+  "descriptor": "An open ended retirement solution oriented scheme having a lock-in of 5 years or till retirement age (whichever is earlier)"
+ },
+ {
+  "id": "nippon-india-small-cap-fund",
+  "name": "Nippon India Small Cap Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 97.36,
+  "holdings": 259,
+  "descriptor": "An Open-Ended Equity Scheme Predominantly Investing In Small Cap Stocks"
+ },
+ {
+  "id": "nippon-india-taiwan-equity-fund",
+  "name": "Nippon India Taiwan Equity Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 89.1,
+  "holdings": 31,
+  "descriptor": "An Open Ended Equity Scheme investing in Taiwan Focused theme"
+ },
+ {
+  "id": "nippon-india-us-equity-opportunities-fund",
+  "name": "Nippon India US Equity Opportunities Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 88.55,
+  "holdings": 29,
+  "descriptor": "An Open Ended Equity Scheme investing in US Focused theme"
+ },
+ {
+  "id": "nippon-india-value-fund",
+  "name": "Nippon India Value Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 96.94,
+  "holdings": 88,
+  "descriptor": "An Open Ended Equity Scheme Following A Value Investment Strategy"
+ },
+ {
+  "id": "nippon-india-vision-large-and-mid-cap-fund",
+  "name": "Nippon India Vision Large & Mid Cap Fund",
+  "amc": "nippon",
+  "as_of": "2026-10-31",
+  "equity_pct": 93.77,
+  "holdings": 99,
+  "descriptor": "An Open Ended Equity Scheme Investing In Both Large Cap And Mid Cap Stocks"
+ },
+ {
+  "id": "ppfas-parag-parikh-arbitrage-fund",
+  "name": "Parag Parikh Arbitrage Fund",
+  "amc": "ppfas",
+  "as_of": "2026-10-31",
+  "equity_pct": 67.18,
+  "holdings": 73,
+  "descriptor": "An open ended scheme investing in arbitrage opportunities. No investment in InvITs permitted"
+ },
+ {
+  "id": "ppfas-parag-parikh-conservative-hybrid-fund",
+  "name": "Parag Parikh Conservative Hybrid Fund",
+  "amc": "ppfas",
+  "as_of": "2026-10-31",
+  "equity_pct": 22.07,
+  "holdings": 10,
+  "descriptor": "An open-ended hybrid scheme investing predominantly in debt instruments"
+ },
+ {
+  "id": "ppfas-parag-parikh-dynamic-asset-allocation-fund",
+  "name": "Parag Parikh Dynamic Asset Allocation Fund",
+  "amc": "ppfas",
+  "as_of": "2026-10-31",
+  "equity_pct": 36.35,
+  "holdings": 28,
+  "descriptor": "An open ended dynamic asset allocation fund investing in debt and equity instruments only"
+ },
+ {
+  "id": "ppfas-parag-parikh-elss-tax-saver-fund",
+  "name": "Parag Parikh ELSS Tax Saver Fund",
+  "amc": "ppfas",
+  "as_of": "2026-10-31",
+  "equity_pct": 95.53,
+  "holdings": 43,
+  "descriptor": "An open ended scheme with attributes in accordance with Equity Linked Saving Scheme, 2005 notified by Ministry of Finance"
+ },
+ {
+  "id": "ppfas-parag-parikh-flexi-cap-fund",
+  "name": "Parag Parikh Flexi Cap Fund",
+  "amc": "ppfas",
+  "as_of": "2026-10-31",
+  "equity_pct": 92.56,
+  "holdings": 58,
+  "descriptor": "An open-ended dynamic equity scheme investing across large cap, mid-cap, small-cap stocks"
+ },
+ {
+  "id": "ppfas-parag-parikh-large-cap-fund",
+  "name": "Parag Parikh Large Cap Fund",
+  "amc": "ppfas",
+  "as_of": "2026-10-31",
+  "equity_pct": 99.36,
+  "holdings": 101,
+  "descriptor": "An open ended equity scheme predominantly investing in large cap stocks"
+ }
+]
