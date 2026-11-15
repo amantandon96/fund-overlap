@@ -1,0 +1,112 @@
+name: Refresh holdings data
+
+# AMCs publish a month's portfolio within ~10 days of month end, so run on the
+# 15th (UTC) to pick up last month's disclosures. Trigger by hand to backfill
+# or retry a month.
+on:
+  schedule:
+    - cron: "30 4 15 * *"
+  workflow_dispatch:
+    inputs:
+      month:
+        description: "Portfolio month, e.g. 2026-10 (blank = previous calendar month)"
+        required: false
+        type: string
+      amc:
+        description: "Limit to one AMC, e.g. hdfc (blank = all)"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    # A full HDFC pull alone takes ~9 minutes because requests are rate limited.
+    timeout-minutes: 60
+    defaults:
+      run:
+        working-directory: pipeline
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+          cache-dependency-glob: pipeline/uv.lock
+
+      - name: Run pipeline tests
+        run: uv run pytest
+
+      - name: Resolve month
+        id: month
+        env:
+          INPUT_MONTH: ${{ inputs.month }}
+        run: |
+          if [ -n "$INPUT_MONTH" ]; then
+            month="$INPUT_MONTH"
+          else
+            month="$(date -u -d "$(date -u +%Y-%m-01) -1 month" +%Y-%m)"
+          fi
+          echo "month=$month" >> "$GITHUB_OUTPUT"
+
+      # Fetching is best effort: one AMC blocking us should not discard the
+      # others. `build` only replaces data for AMCs that have raw files, so a
+      # failed AMC keeps last month's data. The failure is surfaced after the
+      # PR is opened.
+      - name: Fetch and build
+        id: refresh
+        env:
+          MONTH: ${{ steps.month.outputs.month }}
+          INPUT_AMC: ${{ inputs.amc }}
+        run: |
+          args=(--month "$MONTH")
+          if [ -n "$INPUT_AMC" ]; then args+=(--amc "$INPUT_AMC"); fi
+          set +e
+          uv run fund-overlap refresh "${args[@]}" 2>&1 | tee "$RUNNER_TEMP/refresh.log"
+          status=${PIPESTATUS[0]}
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+          {
+            echo 'log<<EOF_LOG'
+            grep -E 'FAILED|warning|WARN' "$RUNNER_TEMP/refresh.log" | head -n 40
+            echo 'EOF_LOG'
+          } >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          add-paths: data/
+          branch: automated/refresh-data-${{ steps.month.outputs.month }}
+          base: main
+          delete-branch: true
+          commit-message: "Refresh holdings data for ${{ steps.month.outputs.month }}"
+          title: "Refresh holdings data for ${{ steps.month.outputs.month }}"
+          labels: data
+          body: |
+            Automated rebuild of `data/` from the ${{ steps.month.outputs.month }} AMC portfolio disclosures
+            (`fund-overlap refresh --month ${{ steps.month.outputs.month }}`).
+
+            **Pipeline exit status:** `${{ steps.refresh.outputs.status }}` (0 = every AMC fetched and built)
+
+            Failures and warnings from the run:
+            ```
+            ${{ steps.refresh.outputs.log || 'none' }}
+            ```
+
+            AMCs that failed to fetch keep their previous data. Check `as_of` in `data/index.json`
+            to see which AMCs are on the new month. Full log: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+      # Turn the job red (and send the usual notification) if any AMC failed,
+      # even though a PR with the partial data was still opened.
+      - name: Fail on pipeline errors
+        if: steps.refresh.outputs.status != '0'
+        run: |
+          echo "fund-overlap refresh exited with status ${{ steps.refresh.outputs.status }}"
+          exit 1
