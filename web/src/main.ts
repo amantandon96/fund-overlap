@@ -6,6 +6,7 @@ import "./theme.css";
 import "./styles.css";
 import { amcName, loadHoldings, loadIndex, loadSecurities } from "./data";
 import { analyse, pairOverlap, type Analysis } from "./overlap";
+import { summariseHouses } from "./houses";
 import { createSearch } from "./search";
 import { downloadFile, loadLocal, parsePortfolioFile, saveLocal, toCsv, type PortfolioFile } from "./storage";
 import type { Holding, Scheme, Security } from "./types";
@@ -700,6 +701,8 @@ async function init(): Promise<void> {
     : "";
   $("asof").textContent = `Holdings as of ${date} · ${eligible.length} funds from ${houses} fund houses`;
 
+  renderHouses(eligible);
+
   const saved = loadLocal<unknown>("portfolio");
   if (Array.isArray(saved)) {
     const seen = new Set<string>();
@@ -717,6 +720,28 @@ async function init(): Promise<void> {
   searchInput.disabled = false;
   renderFunds();
   updateControls();
+}
+
+const formatDate = (iso: string) =>
+  new Date(`${iso}T00:00:00`).toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric" });
+
+/** Lists each fund house with its fund count and data date; houses behind the newest date are flagged. */
+function renderHouses(list: Scheme[]) {
+  const houses = summariseHouses(list);
+  if (!houses.length) return;
+  const newest = houses.reduce((max, h) => (h.asOf > max ? h.asOf : max), "");
+  $("houses").replaceChildren(
+    ...houses.map((h) =>
+      el(
+        "tr",
+        {},
+        el("td", {}, amcName(h.amc)),
+        el("td", { class: "num" }, String(h.funds)),
+        el("td", {}, formatDate(h.asOf), h.asOf < newest ? el("span", { class: "stale" }, "older") : null),
+      ),
+    ),
+  );
+  $("housesSection").hidden = false;
 }
 
 void init();

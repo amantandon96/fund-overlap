@@ -109,6 +109,10 @@ td.via { color: var(--muted); font-size: 13px; white-space: normal; min-width: 1
 .pairs li.sel .pval { box-shadow: 0 0 0 2px var(--surface), 0 0 0 4px var(--focus); }
 
 .isin { font-family: var(--font-mono); font-size: 12px; color: var(--muted); }
+.houses th, .houses td { text-align: left; padding: 7px 8px 7px 0; border-top: 1px solid var(--border); font-size: 14px; }
+.houses th { border-top: 0; color: var(--muted); font-weight: 500; font-size: 12px; }
+.houses .num { text-align: right; padding-right: 24px; }
+.houses .stale { margin-left: 8px; padding: 1px 6px; border: 1px solid var(--border); border-radius: 4px; color: var(--muted); font-size: 11px; }
 footer { color: var(--muted); font-size: 12px; margin-top: 20px; }
 
 @media (max-width: 640px) {
