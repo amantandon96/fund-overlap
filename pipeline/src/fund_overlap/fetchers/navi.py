@@ -27,6 +27,9 @@ def financial_year(year: int, month: int) -> str:
     return f"{start}-{start + 1}"
 
 
+_HARDCODED_NONCE = "892c7283a6"
+
+
 def _find_nonce(client, pacer: Pacer, report: FetchReport) -> re.Match:
     """Read the nonce from the first NONCE_PAGES entry that serves it.
 
@@ -60,7 +63,10 @@ def fetch(month: str, dest: Path) -> FetchReport:
     report = FetchReport("navi")
     pacer = Pacer()
     with make_client() as client:
-        nonce = _find_nonce(client, pacer, report)
+        # TEMPORARY EXPERIMENT: nonce copied from a browser session, to see whether
+        # the documents endpoint is reachable from CI without the landing page.
+        nonce = _HARDCODED_NONCE
+        print(f"[navi] using hardcoded nonce {nonce}")
         pacer.wait()
         resp = client.post(
             DOCS,
@@ -73,7 +79,7 @@ def fetch(month: str, dest: Path) -> FetchReport:
             },
             headers={
                 "Accept": "application/json, text/javascript, */*; q=0.01",
-                "WP-NONCE": nonce.group(1),
+                "WP-NONCE": nonce,
                 "X-Requested-With": "XMLHttpRequest",
                 "Origin": "https://navi.com",
                 "Referer": PAGE,
@@ -81,6 +87,10 @@ def fetch(month: str, dest: Path) -> FetchReport:
                 "Sec-Fetch-Mode": "cors",
                 "Sec-Fetch-Site": "same-origin",
             },
+        )
+        print(
+            f"[navi] documents endpoint -> HTTP {resp.status_code} "
+            f"(cf-mitigated={resp.headers.get('cf-mitigated')}, cf-ray={resp.headers.get('cf-ray')})"
         )
         if resp.status_code != 200:
             raise FetchError(f"Navi documents endpoint returned HTTP {resp.status_code}")
