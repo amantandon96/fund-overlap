@@ -303,6 +303,9 @@ function heat(node: HTMLElement, value: number): void {
   node.style.setProperty("--t2", String(Math.max(t * 2 - 1, 0)));
 }
 
+/** Most funds the phone heatmap shows before falling back to the ranked list. */
+const PHONE_GRID_MAX = 9;
+
 const tag = (text: string, title?: string) => el("span", { class: "tag", title }, text);
 
 /** Rebuilds the whole results area, then restores keyboard focus to the control that triggered it. */
@@ -416,11 +419,25 @@ function matrixSection(s: Snapshot): HTMLElement {
     pairList.append(el("li", { class: isSelected(i, j) ? "sel" : undefined }, button));
   }
 
+  // Phones show a key (letters are all the axes have room for) and a readout line that
+  // names the pair under the finger, since touch has no hover tooltips.
+  const key = el("ul", { class: "fundkey" }, ...funds.map((f) => el("li", {}, tag(f.tag), el("span", {}, f.scheme.name))));
+  const readoutText = (i: number, j: number) =>
+    `${funds[i]!.tag} × ${funds[j]!.tag} · ${funds[i]!.scheme.name} × ${funds[j]!.scheme.name} · ${pct(analysis.matrix[i]![j] ?? 0)}`;
+  const readout = el("p", { class: "readout", "aria-hidden": "true" }, s.pair ? readoutText(s.pair[0], s.pair[1]) : "Tap a cell to see the pair");
+  table.addEventListener("mouseover", (event) => {
+    const cell = (event.target as HTMLElement).closest<HTMLElement>("button[data-key]");
+    const m = cell?.dataset.key?.match(/^cell-(\d+)-(\d+)$/);
+    if (m) readout.textContent = readoutText(Number(m[1]), Number(m[2]));
+  });
+
   return el(
     "section",
-    { class: funds.length > 4 ? "many" : undefined },
+    { class: funds.length > PHONE_GRID_MAX ? "many" : undefined, style: `--n:${funds.length}` },
     el("div", { class: "sec-head" }, el("h2", {}, "Fund-to-fund overlap")),
     el("div", { class: "scroll matrix-wrap" }, table),
+    readout,
+    key,
     pairList,
     el("div", { class: "legend", "aria-hidden": "true" }, el("span", {}, "0%"), el("i"), el("span", {}, `${HEAT_MAX}% or more`)),
     el("p", { class: "note" }, "Overlap is the share of two funds invested in the same stocks at the same weights. Select a pair to see the stocks they have in common."),
@@ -520,9 +537,9 @@ function exposureSection(s: Snapshot): HTMLElement {
         {},
         el("td", { class: "wrap-ok" }, security?.name ?? row.isin),
         el("td", { class: "via sector" }, security?.sector ?? ""),
-        el("td", {}, pct(row.pct)),
-        el("td", {}, `₹${inr((row.pct / 100) * total)}`),
-        el("td", { class: "via" }, row.via.map((v) => `${s.funds[v.fund]!.tag} ${pct(v.weight)}`).join(" · ")),
+        el("td", { "data-label": "Share" }, pct(row.pct)),
+        el("td", { "data-label": "Value" }, `₹${inr((row.pct / 100) * total)}`),
+        el("td", { class: "via", "data-label": "Held via" }, row.via.map((v) => `${s.funds[v.fund]!.tag} ${pct(v.weight)}`).join(" · ")),
       ),
     );
   }
@@ -536,7 +553,7 @@ function exposureSection(s: Snapshot): HTMLElement {
       { class: "scroll" },
       el(
         "table",
-        {},
+        { class: "stack" },
         el(
           "thead",
           {},
