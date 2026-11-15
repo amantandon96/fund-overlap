@@ -1,0 +1,47 @@
+/* ============================================================
+   THEME TOKENS: the only place colours and fonts are defined.
+   Each colour is light-dark(<light value>, <dark value>).
+   To restyle the app, edit this file and nothing else.
+   ============================================================ */
+:root {
+  color-scheme: light dark;
+
+  --font-ui:   "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  /* Greens: forest #0F3D2E, emerald #1A7F45, mint #4CC38A, lime #C9F27B.
+     Light theme sits on pale green-whites; dark theme on near-neutral charcoal. */
+  --bg:        light-dark(#F3F8F3, #101412);  /* page background */
+  --surface:   light-dark(#FFFFFF, #181D1A);  /* panels */
+  --surface-2: light-dark(#E6F1E8, #212824);  /* table headers, inputs */
+  --text:      light-dark(#12281E, #E7ECE8);
+  --muted:     light-dark(#4E6658, #96A39B);
+  --border:    light-dark(#CFE1D4, #2B332E);
+
+  --band:      #0F3D2E;                       /* header band */
+  --band-ink:  #D8F5DF;                       /* text on header band */
+
+  --accent:     light-dark(#1A7F45, #4CC38A); /* primary button, active toggle */
+  --accent-ink: light-dark(#FFFFFF, #0B1F15); /* text on accent */
+  --focus:      light-dark(#0F3D2E, #8FE3B4); /* focus and selection rings */
+  --stat:       light-dark(#1A7F45, #5FD39A); /* big summary numbers */
+  --tag-bg:     light-dark(#C9F27B, #23392E); /* fund letter tags */
+  --tag-ink:    light-dark(#12281E, #BFEFD2);
+
+  /* Heatmap ramp: low -> mid -> high. Ink 1-4 is the text colour for
+     cells in each band of the scale, palest to strongest. The overlap
+     percentage that counts as "high" is HEAT_MAX in main.ts. */
+  --heat-low:   light-dark(#E3F4E4, #1B2620); /* 0% overlap */
+  --heat-mid:   light-dark(#7CCB8B, #1F7A4A); /* half of the maximum */
+  --heat-high:  light-dark(#14532D, #7BE3A6); /* the maximum and above */
+  --heat-ink-1: light-dark(#12281E, #C9D6CE);
+  --heat-ink-2: light-dark(#12281E, #FFFFFF);
+  --heat-ink-3: light-dark(#12281E, #0B1F15);
+  --heat-ink-4: light-dark(#FFFFFF, #0B1F15);
+
+  --notice:     light-dark(#7A4B00, #E8C06A); /* "inputs changed" and warnings */
+  --notice-bg:  light-dark(#FFF4D6, #2A2412);
+  --error:      light-dark(#A32A2A, #F09A9A);
+}
+:root[data-theme="light"] { color-scheme: light; }
+:root[data-theme="dark"]  { color-scheme: dark; }
