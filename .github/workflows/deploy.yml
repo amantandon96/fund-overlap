@@ -38,7 +38,11 @@ jobs:
       - run: npm ci
       - run: npm test
       # Copies ../data into public/data, type-checks, and writes web/dist.
+      # Theming (the System/Light/Dark switcher) is off unless the repo
+      # variable ENABLE_THEMING is set to "true" (Settings -> Variables).
       - run: npm run build
+        env:
+          VITE_ENABLE_THEMING: ${{ vars.ENABLE_THEMING || 'false' }}
 
       - uses: actions/upload-pages-artifact@v3
         with:
