@@ -99,6 +99,7 @@ td.via { color: var(--muted); font-size: 13px; white-space: normal; min-width: 1
 .legend i { width: 160px; height: 8px; border-radius: 4px; background: linear-gradient(90deg in oklab, var(--heat-low), var(--heat-mid), var(--heat-high)); }
 
 /* Ranked pair list: replaces the matrix on phones when there are many funds */
+.readout, .fundkey { display: none; }
 .pairs { display: none; list-style: none; margin: 0; padding: 0; }
 .pairs button { all: unset; box-sizing: border-box; display: flex; align-items: center; gap: 10px; width: 100%; padding: 8px 4px; border-top: 1px solid var(--border); cursor: pointer; }
 .pairs button:focus-visible { outline: 2px solid var(--focus); outline-offset: -2px; }
@@ -119,7 +120,52 @@ footer { color: var(--muted); font-size: 12px; margin-top: 20px; }
   .sector { display: none; }
   th, td { padding: 8px 6px; }
   td.wrap-ok { min-width: 120px; }
-  .many .matrix-wrap { display: none; }
+  .wrap { padding: 12px 12px 48px; }
+  header { padding: 14px 16px; }
+  h1 { font-size: 22px; }
+  section { padding: 14px; }
+  /* 16px stops iOS Safari zooming the page when an input is focused. */
+  input, .search, .amt input { font-size: 16px; }
+  .search { padding: 12px; }
+  .amt input { padding: 10px 0; }
+  .x { font-size: 20px; min-width: 40px; min-height: 40px; }
+  .funds li { column-gap: 8px; }
+  .btn { padding: 10px 14px; }
+  .btn.small { padding: 8px 12px; }
+  .actions .btn.primary { flex: 1 0 100%; }
+  .actions .hint { flex: 1 0 100%; order: 2; }
+  .actions .spacer { display: none; }
+  .actions #load, .actions #save { flex: 1; order: 3; }
+  .results li { padding: 12px 10px; flex-direction: column; gap: 2px; }
+  .results .meta { white-space: normal; }
+  .pairs button { padding: 10px 4px; }
+  .pairs .pnames { white-space: normal; overflow: visible; line-height: 1.3; }
+  .matrix th[scope="row"] .rname { max-width: 140px; }
+  .legend i { width: 100px; }
+  /* Exposure table becomes one card per stock instead of scrolling sideways. */
+  table.stack, table.stack tbody { display: block; }
+  table.stack thead { display: none; }
+  table.stack tr { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 12px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+  table.stack td { border: 0; padding: 0; text-align: left; white-space: normal; min-width: 0; }
+  table.stack td:first-child { grid-column: 1 / -1; font-weight: 500; }
+  table.stack td[data-label]::before { content: attr(data-label) " "; color: var(--muted); font-size: 12px; font-weight: 400; }
+  table.stack td.via { grid-column: 1 / -1; min-width: 0; }
+  /* Heatmap on phones: letter-only axes, and text sized from the container so a cell's
+     number and % always fit however many funds there are (up to PHONE_GRID_MAX). */
+  .matrix-wrap { container-type: inline-size; overflow: visible; }
+  .matrix { width: 100%; table-layout: fixed; border-spacing: 2px; }
+  .matrix th[scope="row"] { width: 28px; padding: 0; }
+  .matrix th[scope="row"] .rname { display: none; }
+  .matrix thead th { padding: 0; }
+  .matrix thead td { width: 28px; }
+  .matrix td { width: auto; min-width: 0; height: clamp(34px, calc((100cqw - 32px) / var(--n)), 56px); }
+  .matrix td button { font-size: clamp(9px, calc((100cqw - 32px) / var(--n) * 0.36), 16px); letter-spacing: -0.02em; white-space: nowrap; }
+  .matrix .tag { width: 22px; height: 22px; }
+  .readout { display: block; margin: 10px 0 0; font-size: 13px; line-height: 1.35; min-height: 2.7em; }
+  .fundkey { display: grid; gap: 4px; list-style: none; margin: 10px 0 0; padding: 0; font-size: 12px; color: var(--muted); }
+  .fundkey li { display: flex; align-items: center; gap: 8px; }
+  .fundkey .tag { width: 20px; height: 20px; font-size: 11px; }
+  .many .matrix-wrap, .many .readout, .many .fundkey { display: none; }
   .many .pairs { display: block; }
 }
 @media (prefers-reduced-motion: no-preference) {
