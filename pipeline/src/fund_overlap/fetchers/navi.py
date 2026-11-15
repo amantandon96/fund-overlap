@@ -14,7 +14,9 @@ from ..http import FetchError, Pacer, download, make_client, safe_filename
 from . import FetchReport, month_parts
 
 PAGE = "https://navi.com/mutual-fund/downloads/portfolio/"
-DOCS = "https://navi.com/wp-json/nv/v1/documents"
+# Pages that print the nonce, tried in order. The home page and /mutual-fund/ do not.
+NONCE_PAGES = [PAGE, "https://navi.com/mutual-fund/downloads/"]
+DOCS ="https://navi.com/wp-json/nv/v1/documents"
 MONTHLY_CATEGORY = "884"
 _NONCE = re.compile(r"navi_property\s*=\s*\{[^}]*?\"nonce\"\s*:\s*\"([a-f0-9]+)\"")
 
@@ -25,18 +27,40 @@ def financial_year(year: int, month: int) -> str:
     return f"{start}-{start + 1}"
 
 
+def _find_nonce(client, pacer: Pacer, report: FetchReport) -> re.Match:
+    """Read the nonce from the first NONCE_PAGES entry that serves it.
+
+    Cloudflare may refuse one path (or a datacenter IP) and not another, so a
+    non-200 or a page without the nonce moves on to the next. Each attempt is
+    logged with the headers that show whether Cloudflare was the one refusing.
+    """
+    problems: list[str] = []
+    for url in NONCE_PAGES:
+        pacer.wait()
+        page = client.get(url)
+        h = page.headers
+        diag = (
+            f"{url} -> HTTP {page.status_code} "
+            f"(server={h.get('server')}, cf-mitigated={h.get('cf-mitigated')}, "
+            f"cf-ray={h.get('cf-ray')})"
+        )
+        print(f"[navi] nonce page {diag}")
+        if page.status_code != 200:
+            problems.append(diag)
+            continue
+        nonce = _NONCE.search(page.text)
+        if nonce:
+            return nonce
+        problems.append(f"{url} -> HTTP 200 but no navi_property.nonce")
+    raise FetchError("Navi nonce unavailable: " + "; ".join(problems))
+
+
 def fetch(month: str, dest: Path) -> FetchReport:
     year, m, month_name = month_parts(month)
     report = FetchReport("navi")
     pacer = Pacer()
     with make_client() as client:
-        pacer.wait()
-        page = client.get(PAGE)
-        if page.status_code != 200:
-            raise FetchError(f"Navi portfolio page returned HTTP {page.status_code}")
-        nonce = _NONCE.search(page.text)
-        if not nonce:
-            raise FetchError("Navi portfolio page no longer exposes navi_property.nonce")
+        nonce = _find_nonce(client, pacer, report)
         pacer.wait()
         resp = client.post(
             DOCS,

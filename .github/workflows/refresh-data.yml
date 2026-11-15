@@ -5,6 +5,11 @@ name: Refresh holdings data
 # missed the first run is picked up by the second. The second run is safe: the
 # PR branch is per month, and an unchanged data/ opens no PR. Trigger by hand
 # to backfill or retry a month.
+#
+# Navi is not in the scheduled run: its site sits behind a Cloudflare challenge
+# that blocks GitHub-hosted runners (HTTP 403, cf-mitigated=challenge on every
+# page and on the documents API). Refresh it from a laptop with
+# `fund-overlap refresh --month YYYY-MM --amc navi` and commit data/ by hand.
 on:
   schedule:
     - cron: "30 4 15,25 * *"
@@ -69,7 +74,12 @@ jobs:
           INPUT_AMC: ${{ inputs.amc }}
         run: |
           args=(--month "$MONTH")
-          if [ -n "$INPUT_AMC" ]; then args+=(--amc "$INPUT_AMC"); fi
+          if [ -n "$INPUT_AMC" ]; then
+            args+=(--amc "$INPUT_AMC")
+          else
+            # Every AMC except navi (see the note at the top of this file).
+            for amc in nippon hdfc axis motilal ppfas; do args+=(--amc "$amc"); done
+          fi
           set +e
           uv run fund-overlap refresh "${args[@]}" 2>&1 | tee "$RUNNER_TEMP/refresh.log"
           status=${PIPESTATUS[0]}
@@ -101,6 +111,10 @@ jobs:
             ```
             ${{ steps.refresh.outputs.log || 'none' }}
             ```
+
+            **Navi is not refreshed by this workflow.** Its site blocks GitHub-hosted runners, so its data
+            must be updated and committed manually: `fund-overlap refresh --month ${{ steps.month.outputs.month }} --amc navi`
+            from a local machine, then commit `data/`.
 
             AMCs that failed to fetch keep their previous data. Check `as_of` in `data/index.json`
             to see which AMCs are on the new month. Full log: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}

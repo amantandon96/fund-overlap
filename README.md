@@ -24,7 +24,7 @@ uv run pytest
 `refresh` without `--month` uses the previous calendar month. AMCs publish a
 month's portfolio within about ten days of month end.
 
-Supported AMCs: `nippon`, `hdfc`, `axis`, `motilal`, `navi`, `ppfas` (Parag Parikh).
+Supported AMCs: `nippon`, `hdfc`, `axis`, `motilal`, `navi`, `ppfas` (Parag Parikh). `navi` is excluded from the scheduled refresh because its site blocks GitHub-hosted runners (Cloudflare challenge); run `fund-overlap refresh --month YYYY-MM --amc navi` locally and commit `data/` by hand.
 
 ### What goes where
 
